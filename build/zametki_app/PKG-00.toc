@@ -1,0 +1,55 @@
+('D:\\программирование\\обучение\\Инженер программист\\022024 '
+ 'контрольная\\Задача 1\\build\\zametki_app\\zametki_app.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\build\\zametki_app\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\build\\zametki_app\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\build\\zametki_app\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача '
+   '1\\build\\zametki_app\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\build\\zametki_app\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\build\\zametki_app\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\user\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\user\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('zametki_app',
+   'D:\\программирование\\обучение\\Инженер программист\\022024 '
+   'контрольная\\Задача 1\\zametki_app.py',
+   'PYSOURCE')],
+ 'python310.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
