@@ -13,7 +13,7 @@ class DelNotice:
         
         delNumb=input("Введите номер записи для удаления: ")
         
-        if isinstance(delNumb, int):
+        if isinstance(int(delNumb), int):
         
             if int(delNumb)<1 or int(delNumb)>sizeNotice:
                 print("Такой записи нет")
