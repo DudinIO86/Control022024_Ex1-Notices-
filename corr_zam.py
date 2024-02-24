@@ -33,7 +33,7 @@ class corrNotice:
             if choice=='1':
                 
                 num=input("Выберите номер заметки: ")
-                if isinstance(num, int):
+                if isinstance(int(num), int):
                 
                         if int(num)<1 or int(num)>sizeNotice:
                             print("Такой записи нет")
@@ -46,6 +46,7 @@ class corrNotice:
                             data['notices'][int(num)-1]['time']=current_time
                             with open('data.json','w') as file:
                                 json.dump(data,file,indent=2,ensure_ascii=True)
+                            break
                 else:
                     print("Ошибка ввода")
                     break
@@ -53,7 +54,7 @@ class corrNotice:
             elif choice=='2':
                 
                 num=input("Выберите номер заметки: ")
-                if isinstance(num, int):
+                if isinstance(int(num), int):
                     if int(num)<1 or int(num)>sizeNotice:
                         print("Такой записи нет")
                         break
@@ -65,6 +66,7 @@ class corrNotice:
                         data['notices'][int(num)-1]['time']=current_time
                         with open('data.json','w') as file:
                             json.dump(data,file,indent=2,ensure_ascii=True)
+                        break
                 else:
                     print("Ошибка ввода")
                     break
@@ -72,7 +74,7 @@ class corrNotice:
             elif choice=='3':
                 
                 num=input("Выберите номер заметки: ")
-                if isinstance(num, int):
+                if isinstance(int(num), int):
                     if int(num)<1 or int(num)>sizeNotice:
                         print("Такой записи нет")
                         break
@@ -86,6 +88,7 @@ class corrNotice:
                         data['notices'][int(num)-1]['text']=text
                         with open('data.json','w') as file:
                             json.dump(data,file,indent=2,ensure_ascii=True)
+                        break
                 else:
                     print("Ошибка ввода")
                     break
